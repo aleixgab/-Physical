@@ -38,7 +38,9 @@ public:
 		CreateCircle(App->input->GetMouseX(), App->input->GetMouseY(), 50);
 	}*/
 
-	void CreateCircle(float32 x_, float32 y_, int rad);
+	void CreateCircle(float x_, float y_, int rad);
+	void CreatePolygon(float x_, float y_, float b_, float h_);
+	void CreateChain(float x_, float y_);
 
 private:
 
