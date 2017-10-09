@@ -1,0 +1,29 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (F.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  ModuleWindow.cpp
+  ModuleTextures.cpp
+  ModuleSceneIntro.cpp
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xlocale(341): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+c:\users\aleixg\desktop\-physical\physics2_class2_handout\box2d\box2d\common\b2math.h(54): warning C4099: 'b2Vec2': type name first seen using 'class' now seen using 'struct'
+  c:\users\aleixg\desktop\-physical\physics2_class2_handout\box2d\box2d\common\b2math.h(53): note: see declaration of 'b2Vec2'
+c:\users\aleixg\desktop\-physical\physics2_class2_handout\modulesceneintro.cpp(106): warning C4244: 'argument': conversion from 'float32' to 'int', possible loss of data
+c:\users\aleixg\desktop\-physical\physics2_class2_handout\modulesceneintro.cpp(108): warning C4244: 'argument': conversion from 'float32' to 'int', possible loss of data
+c:\users\aleixg\desktop\-physical\physics2_class2_handout\modulesceneintro.cpp(110): warning C4244: 'argument': conversion from 'float32' to 'int', possible loss of data
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\cmath(131): warning C4577: 'noexcept' used with no exception handling mode specified; termination on exception is not guaranteed. Specify /EHsc
+  ModuleRender.cpp
+  ModulePlayer.cpp
+  ModulePhysics.cpp
+c:\users\aleixg\desktop\-physical\physics2_class2_handout\box2d\box2d\common\b2math.h(54): warning C4099: 'b2Vec2': type name first seen using 'class' now seen using 'struct'
+  c:\users\aleixg\desktop\-physical\physics2_class2_handout\box2d\box2d\common\b2math.h(53): note: see declaration of 'b2Vec2'
+c:\users\aleixg\desktop\-physical\physics2_class2_handout\modulephysics.cpp(35): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\aleixg\desktop\-physical\physics2_class2_handout\modulephysics.cpp(414): warning C4244: '=': conversion from 'int' to 'float32', possible loss of data
+c:\users\aleixg\desktop\-physical\physics2_class2_handout\modulephysics.cpp(415): warning C4244: '=': conversion from 'int' to 'float32', possible loss of data
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\cmath(30): warning C4577: 'noexcept' used with no exception handling mode specified; termination on exception is not guaranteed. Specify /EHsc
+  ModuleInput.cpp
+  ModuleAudio.cpp
+  Main.cpp
+  log.cpp
+  Application.cpp
+  Generating Code...
+  LINK : C:\Users\AleixG\Desktop\-Physical\Physics2_class2_handout\Debug\2D Physics - class 2.exe not found or not built by the last incremental link; performing full link
+  SDL Game.vcxproj -> C:\Users\AleixG\Desktop\-Physical\Physics2_class2_handout\Debug\2D Physics - class 2.exe
+  SDL Game.vcxproj -> C:\Users\AleixG\Desktop\-Physical\Physics2_class2_handout\Debug\2D Physics - class 2.pdb (Full PDB)
