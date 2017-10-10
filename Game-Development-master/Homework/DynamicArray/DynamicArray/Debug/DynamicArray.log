@@ -1,0 +1,27 @@
+﻿  DynamicArray.cpp
+c:\users\disob\desktop\upc\2n\desenvolupament\dynamicarray\dynamicarray\dynamicarray.h(103): warning C4018: '>': signed/unsigned mismatch
+  c:\users\disob\desktop\upc\2n\desenvolupament\dynamicarray\dynamicarray\dynamicarray.h(69): note: while compiling class template member function 'bool DynArray<int>::insert(unsigned int,const Type &)'
+          with
+          [
+              Type=int
+          ]
+  c:\users\disob\desktop\upc\2n\desenvolupament\dynamicarray\dynamicarray\dynamicarray.cpp(9): note: see reference to function template instantiation 'bool DynArray<int>::insert(unsigned int,const Type &)' being compiled
+          with
+          [
+              Type=int
+          ]
+  c:\users\disob\desktop\upc\2n\desenvolupament\dynamicarray\dynamicarray\dynamicarray.cpp(6): note: see reference to class template instantiation 'DynArray<int>' being compiled
+c:\users\disob\desktop\upc\2n\desenvolupament\dynamicarray\dynamicarray\dynamicarray.h(125): warning C4018: '<': signed/unsigned mismatch
+  c:\users\disob\desktop\upc\2n\desenvolupament\dynamicarray\dynamicarray\dynamicarray.h(122): note: while compiling class template member function 'bool DynArray<int>::remove(unsigned int)'
+  c:\users\disob\desktop\upc\2n\desenvolupament\dynamicarray\dynamicarray\dynamicarray.cpp(36): note: see reference to function template instantiation 'bool DynArray<int>::remove(unsigned int)' being compiled
+c:\users\disob\desktop\upc\2n\desenvolupament\dynamicarray\dynamicarray\dynamicarray.h(151): warning C4018: '<': signed/unsigned mismatch
+  c:\users\disob\desktop\upc\2n\desenvolupament\dynamicarray\dynamicarray\dynamicarray.h(149): note: while compiling class template member function 'void DynArray<int>::print(void) const'
+  c:\users\disob\desktop\upc\2n\desenvolupament\dynamicarray\dynamicarray\dynamicarray.cpp(15): note: see reference to function template instantiation 'void DynArray<int>::print(void) const' being compiled
+c:\users\disob\desktop\upc\2n\desenvolupament\dynamicarray\dynamicarray\dynamicarray.h(168): warning C4018: '<': signed/unsigned mismatch
+  c:\users\disob\desktop\upc\2n\desenvolupament\dynamicarray\dynamicarray\dynamicarray.h(163): note: while compiling class template member function 'void DynArray<int>::allocMem(unsigned int)'
+  c:\users\disob\desktop\upc\2n\desenvolupament\dynamicarray\dynamicarray\dynamicarray.h(48): note: see reference to function template instantiation 'void DynArray<int>::allocMem(unsigned int)' being compiled
+  c:\users\disob\desktop\upc\2n\desenvolupament\dynamicarray\dynamicarray\dynamicarray.h(45): note: while compiling class template member function 'DynArray<int>::DynArray(unsigned int)'
+  c:\users\disob\desktop\upc\2n\desenvolupament\dynamicarray\dynamicarray\dynamicarray.cpp(7): note: see reference to function template instantiation 'DynArray<int>::DynArray(unsigned int)' being compiled
+c:\users\disob\desktop\upc\2n\desenvolupament\dynamicarray\dynamicarray\dynamicarray.h(119): warning C4715: 'DynArray<int>::insert': not all control paths return a value
+  DynamicArray.vcxproj -> C:\Users\disob\Desktop\UPC\2n\DESENVOLUPAMENT\DynamicArray\Debug\DynamicArray.exe
+  DynamicArray.vcxproj -> C:\Users\disob\Desktop\UPC\2n\DESENVOLUPAMENT\DynamicArray\Debug\DynamicArray.pdb (Partial PDB)

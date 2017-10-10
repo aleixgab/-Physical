@@ -1,0 +1,9 @@
+﻿  Vector3.cpp
+c:\users\disob\documents\github\game-development\homework\vector3\vector3\vector3.cpp(6): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\users\disob\documents\github\game-development\homework\vector3\vector3\vector3.cpp(7): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\users\disob\documents\github\game-development\homework\vector3\vector3\vector3.h(94): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  c:\users\disob\documents\github\game-development\homework\vector3\vector3\vector3.h(93): note: while compiling class template member function 'int Vec3<int>::distance(const Vec3<int> &)'
+  c:\users\disob\documents\github\game-development\homework\vector3\vector3\vector3.cpp(79): note: see reference to function template instantiation 'int Vec3<int>::distance(const Vec3<int> &)' being compiled
+  c:\users\disob\documents\github\game-development\homework\vector3\vector3\vector3.cpp(29): note: see reference to class template instantiation 'Vec3<int>' being compiled
+  Vector3.vcxproj -> C:\Users\disob\Documents\GitHub\Game-Development\Homework\Vector3\Debug\Vector3.exe
+  Vector3.vcxproj -> C:\Users\disob\Documents\GitHub\Game-Development\Homework\Vector3\Debug\Vector3.pdb (Partial PDB)

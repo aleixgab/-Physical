@@ -1,0 +1,20 @@
+<!--Config file for the game-->
+<config>
+  <name>Hello World!</name>
+ 
+   <j1Window 
+    fullscreen = "0"
+    borderless = "0"
+    resizable = "1"
+    fullscreen_window = "0"
+    title = "Hello World!"
+    width = "1024"
+    height = "768"
+    scale = "1"></j1Window>
+  
+   <j1Audio 
+    default_music_fade_time = "2.0"
+    music_volume ="50"
+    fx_volume ="90"></j1Audio>
+  
+</config>

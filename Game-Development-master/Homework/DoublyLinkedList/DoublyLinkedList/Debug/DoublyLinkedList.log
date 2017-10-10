@@ -1,0 +1,25 @@
+﻿  DoublyLinkedList.cpp
+c:\users\disob\desktop\upc\2n\desenvolupament\doublylinkedlist\doublylinkedlist\doublylinkedlist.h(134): warning C4018: '<': signed/unsigned mismatch
+  c:\users\disob\desktop\upc\2n\desenvolupament\doublylinkedlist\doublylinkedlist\doublylinkedlist.h(129): note: while compiling class template member function 'void List<int>::insert(unsigned int,const Type &)'
+          with
+          [
+              Type=int
+          ]
+  c:\users\disob\desktop\upc\2n\desenvolupament\doublylinkedlist\doublylinkedlist\doublylinkedlist.cpp(10): note: see reference to function template instantiation 'void List<int>::insert(unsigned int,const Type &)' being compiled
+          with
+          [
+              Type=int
+          ]
+  c:\users\disob\desktop\upc\2n\desenvolupament\doublylinkedlist\doublylinkedlist\doublylinkedlist.cpp(6): note: see reference to class template instantiation 'List<int>' being compiled
+c:\users\disob\desktop\upc\2n\desenvolupament\doublylinkedlist\doublylinkedlist\doublylinkedlist.h(139): warning C4018: '<': signed/unsigned mismatch
+c:\users\disob\desktop\upc\2n\desenvolupament\doublylinkedlist\doublylinkedlist\doublylinkedlist.h(156): warning C4018: '>=': signed/unsigned mismatch
+c:\users\disob\desktop\upc\2n\desenvolupament\doublylinkedlist\doublylinkedlist\doublylinkedlist.h(170): warning C4018: '<': signed/unsigned mismatch
+  c:\users\disob\desktop\upc\2n\desenvolupament\doublylinkedlist\doublylinkedlist\doublylinkedlist.h(168): note: while compiling class template member function 'void List<int>::remove(unsigned int)'
+  c:\users\disob\desktop\upc\2n\desenvolupament\doublylinkedlist\doublylinkedlist\doublylinkedlist.cpp(39): note: see reference to function template instantiation 'void List<int>::remove(unsigned int)' being compiled
+c:\users\disob\desktop\upc\2n\desenvolupament\doublylinkedlist\doublylinkedlist\doublylinkedlist.h(175): warning C4018: '<': signed/unsigned mismatch
+c:\users\disob\desktop\upc\2n\desenvolupament\doublylinkedlist\doublylinkedlist\doublylinkedlist.h(227): warning C4018: '<': signed/unsigned mismatch
+  c:\users\disob\desktop\upc\2n\desenvolupament\doublylinkedlist\doublylinkedlist\doublylinkedlist.h(226): note: while compiling class template member function 'int List<int>::getValue(unsigned int) const'
+  c:\users\disob\desktop\upc\2n\desenvolupament\doublylinkedlist\doublylinkedlist\doublylinkedlist.cpp(36): note: see reference to function template instantiation 'int List<int>::getValue(unsigned int) const' being compiled
+c:\users\disob\desktop\upc\2n\desenvolupament\doublylinkedlist\doublylinkedlist\doublylinkedlist.h(232): warning C4018: '<': signed/unsigned mismatch
+  DoublyLinkedList.vcxproj -> C:\Users\disob\Desktop\UPC\2n\DESENVOLUPAMENT\DoublyLinkedList\Debug\DoublyLinkedList.exe
+  DoublyLinkedList.vcxproj -> C:\Users\disob\Desktop\UPC\2n\DESENVOLUPAMENT\DoublyLinkedList\Debug\DoublyLinkedList.pdb (Partial PDB)
