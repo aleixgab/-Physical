@@ -30,7 +30,45 @@ bool ModuleSceneIntro::Start()
 	rick = App->textures->Load("pinball/rick_head.png");
 	bonus_fx = App->audio->LoadFx("pinball/bonus.wav");
 
-	sensor = App->physics->CreateRectangleSensor(SCREEN_WIDTH / 2, SCREEN_HEIGHT, SCREEN_WIDTH, 50);
+	//sensor = App->physics->CreateRectangleSensor(SCREEN_WIDTH / 2, SCREEN_HEIGHT, SCREEN_WIDTH, 50);
+
+	int bg[66] = {
+		20, 799,
+		19, 593,
+		85, 515,
+		85, 479,
+		63, 433,
+		43, 383,
+		31, 319,
+		26, 256,
+		30, 203,
+		53, 149,
+		87, 98,
+		129, 59,
+		182, 34,
+		241, 15,
+		284, 15,
+		328, 15,
+		376, 20,
+		428, 39,
+		465, 66,
+		496, 96,
+		530, 145,
+		541, 203,
+		543, 365,
+		546, 800,
+		515, 801,
+		513, 428,
+		504, 422,
+		489, 438,
+		460, 459,
+		420, 481,
+		420, 519,
+		485, 586,
+		485, 799
+	};
+
+	BG = App->physics->CreateChain(App->input->GetMouseX(), App->input->GetMouseY(), bg, 66, b2_staticBody);
 
 	return ret;
 }
@@ -102,7 +140,7 @@ update_status ModuleSceneIntro::Update()
 			30, 62
 		};
 
-		ricks.add(App->physics->CreateChain(App->input->GetMouseX(), App->input->GetMouseY(), rick_head, 64));
+		ricks.add(App->physics->CreateChain(App->input->GetMouseX(), App->input->GetMouseY(), rick_head, 64, b2_dynamicBody));
 	}
 
 	// Prepare for raycast ------------------------------------------------------
