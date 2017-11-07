@@ -1,0 +1,31 @@
+﻿  Timer.cpp
+  Primitive.cpp
+  ModuleWindow.cpp
+  ModuleSceneIntro.cpp
+  ModuleRenderer3D.cpp
+  ModulePhysics3D.cpp
+c:\users\aleixgm\desktop\physics3d_class2 - handout\modulephysics3d.cpp(24): warning C4150: deletion of pointer to incomplete type 'DebugDrawer'; no destructor called
+  c:\users\aleixgm\desktop\physics3d_class2 - handout\modulephysics3d.h(9): note: see declaration of 'DebugDrawer'
+  ModuleInput.cpp
+  ModuleCamera3D.cpp
+  ModuleAudio.cpp
+  Main.cpp
+  log.cpp
+  Light.cpp
+  glmath.cpp
+c:\users\aleixgm\desktop\physics3d_class2 - handout\glmath.cpp(12): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\users\aleixgm\desktop\physics3d_class2 - handout\glmath.cpp(27): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\aleixgm\desktop\physics3d_class2 - handout\glmath.cpp(43): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\aleixgm\desktop\physics3d_class2 - handout\glmath.cpp(53): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\aleixgm\desktop\physics3d_class2 - handout\glmath.cpp(72): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\users\aleixgm\desktop\physics3d_class2 - handout\glmath.cpp(87): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\aleixgm\desktop\physics3d_class2 - handout\glmath.cpp(103): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\aleixgm\desktop\physics3d_class2 - handout\glmath.cpp(600): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\aleixgm\desktop\physics3d_class2 - handout\glmath.cpp(618): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\aleixgm\desktop\physics3d_class2 - handout\glmath.cpp(758): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\aleixgm\desktop\physics3d_class2 - handout\glmath.cpp(778): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Color.cpp
+  Application.cpp
+  Generating Code...
+  3D Physics.vcxproj -> C:\Users\aleixgm\Desktop\Physics3D_class2 - handout\Debug\3D Physics - class2 Handout.exe
+  3D Physics.vcxproj -> C:\Users\aleixgm\Desktop\Physics3D_class2 - handout\Debug\3D Physics - class2 Handout.pdb (Full PDB)
